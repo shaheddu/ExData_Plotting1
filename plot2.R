@@ -4,4 +4,4 @@ data <- cbind(SetTime, data)
 
 plot( SetTime, gap, type="l", col="black", xlab=" ", ylab="Global Active Power (kilowatts)")
 
-##plot saved using Export menu
+##saved manually from the Export menu top of of plot, and file type png is selected with 400*400 
