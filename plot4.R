@@ -13,5 +13,3 @@ lines(SetTime, data$Sub_metering_3, col=colorv[3])
 legend("topright", bty="n", legend=labels, col=colorv, lty=1)
 plot( SetTime, data$Voltage, type="l", col="black", xlab=" datetime", ylab="Voltage")
 plot( SetTime, data$Global_reactive_power, type="l", col="black", xlab="datetime", ylab="Global_reactive_power")
-
-layout(matrix(c(2,2,2,2,2,2), widths=c(3,1), heights=c(1,2)))
